@@ -55,3 +55,17 @@ require "main"
 ~~~
 
 See 'test' directory for more examples.
+
+### make script options
+To get the information about the available options use the -h switch
+~~~
+DBLua make utility v1.0
+Options:
+        -f makefile     -- makefile name with path
+        -b              -- build only, do not deploy
+        -c              -- clean
+        -v              -- verbose
+        -h              -- show this help
+
+        example:        make -f test/project4/makefile.lua -v
+~~~
